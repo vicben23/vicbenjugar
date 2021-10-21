@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.btn {
+    float: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 400px;
+}

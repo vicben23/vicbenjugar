@@ -1,0 +1,16 @@
+<body>
+    <div id="container-main">
+        <div id="title">
+            <h2><b>Infografía jugadores</b></h2>
+        </div>
+        <div id="container-secondary">
+            <div id="player-link" *ngFor="let jugador of jugadores">
+                <a [routerLink]="jugador.lin">
+                    <img [src]="jugador.img">
+                    <h2>{{jugador.nombre}}</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>

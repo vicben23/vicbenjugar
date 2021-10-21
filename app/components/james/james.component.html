@@ -1,0 +1,11 @@
+<div *ngFor="let jugador of james">
+    <h1> Infografía {{jugador.nombre}}</h1>
+    <div class="container">
+        <img [src]="jugador.img" alt="">
+        <div>
+            <b>Nombre:</b>{{jugador.nombre}} <br> <b>Bio:</b>{{jugador.bio}} <br> <b>Img:</b>{{jugador.img}} <br> <b>Nacimiento:</b>{{jugador.nacimiento}} <br> <b>Seleccion:</b>{{jugador.seleccion}} <br> <b>Equipo:</b>{{jugador.equipo}}
+        </div>
+
+    </div>
+    <button type="button" class="btn btn-primary btn-lg" routerLink="/Jugadores">H o m e</button>
+</div>

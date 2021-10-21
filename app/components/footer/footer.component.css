@@ -1,0 +1,20 @@
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+    background-color: rgb(0, 255, 170);
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    font-size: 34px;
+}
